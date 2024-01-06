@@ -5,6 +5,7 @@ import "./App.module.css";
 import SideBar from "./components/SideBar";
 // import NavBarSimple from "./components/NavBarSimple";
 import NavBarForm from "./components/NavBarForm";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       {/* <NavBarSimple /> */}
       <NavBarForm />
       <SideBar />
+      <Content />
     </div>
   );
 }
