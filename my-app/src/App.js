@@ -3,6 +3,7 @@ import "./App.module.css";
 // import StatefulGreetingComponenet from './components/StatefulGreetingComponenet';
 // import HooksComponent from './components/HooksComponent';
 import SideBar from "./components/SideBar";
+import NavBarSimple from "./components/NavBarSimple";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <StatefulGreetingComponenet name="Anna" />
       <hr />
       <HooksComponent name="Bob" /> */}
+      <NavBarSimple />
       <SideBar />
     </div>
   );
